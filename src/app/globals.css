@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -7,19 +7,29 @@
 
 body {
   font-family: "Outfit", sans-serif;
-  background-color: #E4EEF7;
+  background-color: #e4eef7;
   text-align: center;
-  color: #6E7581;
+  color: #6e7581;
 }
 
 .backround-oplan {
-  background-image: url('/bg-oplan-hero.png');
+  background-image: url("/bg-oplan-hero.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .backround-saude-integral {
-  background-image: url('/');
+  background-image: url("/");
   background-repeat: no-repeat;
   background-size: contain;
+  position: relative;
+}
+
+.custom-shape-divider-bottom-1718660191 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
