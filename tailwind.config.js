@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        sans: ["Inter", "sans-serif"],
+        display: ['Outfit', 'sans-serif'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -14,5 +18,6 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 };
