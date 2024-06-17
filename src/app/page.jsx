@@ -17,7 +17,10 @@ export default function Home() {
           Site Institucional
         </a>
       </header>
-      <section className="bg-gradient-to-tr from-[#326D90] via-[#404E68] via-70% to-[#404E68] h-[90vh] w-full relative">
+
+      {/* ******************* HERO ******************* */}
+
+      <section className="bg-gradient-to-tr from-[#326D90] via-[#404E68] via-70% to-[#404E68] h-[95vh] w-full relative">
         <div className="h-full w-full backround-oplan flex items-end justify-center">
           <div className="flex flex-col md:flex-row items-center justify-center h-[90%]  container mx-auto">
             <div className=" h-full w-full order-2 md:order-1 flex flex-col items-center md:items-start justify-start md:justify-center">
@@ -34,13 +37,13 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="h-full w-full  order-1 md:order-2 flex items-end justify-center">
+            <div className="h-[50%] md:h-full w-full  order-1 md:order-2 flex items-end justify-center">
               <Image
                 src="/familia-oplan-saude.png"
                 width={880}
                 height={400}
                 alt="Logo Oplan Saúde"
-                className="absolute"
+                className="static md:absolute"
               />
             </div>
           </div>
@@ -61,7 +64,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full h-[80%] my-20 container mx-auto flex items-center justify-center flex-col">
+      {/* ******************* SAÚDE INTEGRAL ******************* */}
+
+      <section className="w-full h-[80%] my-10  md:my-20 container mx-auto flex items-center justify-center flex-col">
         <h2 className="text-4xl uppercase tracking-wider font-semibold my-10 text-[#404E68]">
           Saúde Integral
         </h2>
@@ -69,7 +74,7 @@ export default function Home() {
           src="/oplan-saude-integral.png"
           width={1300}
           height={500}
-          alt="Logo Oplan Saúde"
+          alt="Gráfico Oplan Saúde Integral"
         />
       </section>
     </>
