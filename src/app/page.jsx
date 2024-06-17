@@ -32,8 +32,16 @@ export default function Home() {
                 Preços acessíveis, atendimento humanizado, ótima rede
                 credenciada. Mais saúde para sua família.
               </p>
-              <a className="inline-block md:float-start font-display bg-gradient-to-br from-[#31D0E6] via-[#31A8E5] to-[#1F81C8] p-4 px-8 rounded-sm  border-2 border-[#2FC1FF] drop-shadow-lg">
-                <p className="text-white font-semibold">Solicite uma cotação</p>
+              <a className=" flex items-center gap-x-2 md:float-start font-display bg-gradient-to-br from-[#31D0E6] via-[#31A8E5] to-[#1F81C8] p-4 px-6 rounded-sm  border-2 border-[#2FC1FF] drop-shadow-lg">
+                <Image
+                  src="/icon-wpp.png"
+                  width={28}
+                  height={28}
+                  alt="Ícone Whatsapp"
+                />
+                <p className="text-white font-semibold text-base md:text-xl">
+                  Solicite uma cotação
+                </p>
               </a>
             </div>
 
