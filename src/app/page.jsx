@@ -133,8 +133,7 @@ export default function Home() {
                 Rede Credenciada
               </p>
               <p className="text-start text-base mt-3">
-                Consultas virtuais disponíveis a qualquer hora e de qualquer
-                lugar
+                Acesso a excelentes profissionais e serviços de saúde.
               </p>
             </div>
             <div className="w-[90%] p-5  bg-gradient-to-tr from-white/30 to-white/20 shadow-2xl shadow-[#c1cddc] rounded-xl border-4 border-white backdrop-blur-sm hover">
@@ -146,7 +145,7 @@ export default function Home() {
 Saúde Farma"
               />
               <p className="font-display text-lg font-bold text-start text-[#4E6381]">
-                Programa br Saúde Farma
+                Programa <br /> Saúde Farma
               </p>
               <p className="text-start text-base mt-3">
                 Medicamento a preço de custo
