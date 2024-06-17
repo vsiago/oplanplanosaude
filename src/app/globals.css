@@ -17,3 +17,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.backround-saude-integral {
+  background-image: url('/');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
