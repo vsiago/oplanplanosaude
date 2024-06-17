@@ -9,6 +9,7 @@ export default function Home() {
           width={170}
           height={80}
           alt="Logo Oplan Saúde"
+          className="md:w-[250px]"
         />
         <a
           href="/"
@@ -77,7 +78,85 @@ export default function Home() {
 
       {/* ******************* SAÚDE INTEGRAL ******************* */}
 
-      <section className="w-full h-[80%] mx-auto flex items-center justify-center flex-col relative">
+      <section className="w-full relative md:hidden">
+        <div className="my-20 container mx-auto flex flex-col items-center justify-center">
+          <h2 className="text-2xl  uppercase tracking-wider font-semibold my-10 text-[#404E68]">
+            Saúde Integral
+          </h2>
+          <Image
+            src="/oplan-saude-integrada-mobile.png"
+            width={1300}
+            height={500}
+            alt="Gráfico Oplan Saúde Integral"
+          />
+
+          <div className="w-full flex flex-col items-center gap-y-3 -mt-40">
+            <div className="w-[90%] p-5  bg-gradient-to-tr from-white/30 to-white/20 shadow-2xl shadow-[#c1cddc] rounded-xl border-4 border-white backdrop-blur-sm hover">
+              <Image
+                src="/icon-hospital.png"
+                width={64}
+                height={64}
+                alt="Ícone Rede Própria"
+              />
+              <p className="font-display text-lg font-bold text-start text-[#4E6381]">
+                Rede Própria de Hospital <br /> e Centros Médicos
+              </p>
+              <p className="text-start text-base mt-3">
+                Para garantia total do <br /> seu atendimento
+              </p>
+            </div>
+            <div className="w-[90%] p-5  bg-gradient-to-tr from-white/30 to-white/20 shadow-2xl shadow-[#c1cddc] rounded-xl border-4 border-white backdrop-blur-sm hover">
+              <Image
+                src="/icon-devices.png"
+                width={64}
+                height={64}
+                alt="Ícone Telemedicina"
+              />
+              <p className="font-display text-lg font-bold text-start text-[#4E6381]">
+                Telemedicina <br />
+                Adulto e Pediátrico
+              </p>
+              <p className="text-start text-base mt-3">
+                Consultas virtuais disponíveis a qualquer hora e de qualquer
+                lugar
+              </p>
+            </div>
+            <div className="w-[90%] p-5  bg-gradient-to-tr from-white/30 to-white/20 shadow-2xl shadow-[#c1cddc] rounded-xl border-4 border-white backdrop-blur-sm hover">
+              <Image
+                src="/icon-rede.png"
+                width={64}
+                height={64}
+                alt="Ícone Ampla e Qualificada Rede Credenciada"
+              />
+              <p className="font-display text-lg font-bold text-start text-[#4E6381]">
+                Ampla e Qualificada <br />
+                Rede Credenciada
+              </p>
+              <p className="text-start text-base mt-3">
+                Consultas virtuais disponíveis a qualquer hora e de qualquer
+                lugar
+              </p>
+            </div>
+            <div className="w-[90%] p-5  bg-gradient-to-tr from-white/30 to-white/20 shadow-2xl shadow-[#c1cddc] rounded-xl border-4 border-white backdrop-blur-sm hover">
+              <Image
+                src="/icon-remedio.png"
+                width={64}
+                height={64}
+                alt="Ícone Programa
+Saúde Farma"
+              />
+              <p className="font-display text-lg font-bold text-start text-[#4E6381]">
+                Programa br Saúde Farma
+              </p>
+              <p className="text-start text-base mt-3">
+                Medicamento a preço de custo
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="hidden w-full h-[80%] mx-auto md:flex items-center justify-center flex-col relative">
         <div className="my-20 mb-32">
           <h2 className="text-2xl md:text-4xl uppercase tracking-wider font-semibold my-10 text-[#404E68]">
             Saúde Integral
@@ -121,6 +200,9 @@ export default function Home() {
           </svg>
         </div>
       </section>
+
+      {/* ******************* PRODUTOS OPLAN ******************* */}
+
       <section className="h-[80vh]">
         <h3 className="text-2xl md:text-4xl uppercase tracking-wider font-semibold my-10 text-[#404E68]">
           CONHEÇA NOSSOS PLANOS
