@@ -41,8 +41,8 @@ export default function Home() {
 
 
     <section className="w-full h-[80%] my-20 container mx-auto flex items-center justify-center flex-col">
-      <h2 className="text-4xl uppercase tracking-wider font-semibold my-20 text-[#404E68]">Saúde Integral</h2>
-      <Image src="/oplan-saude-integral.png" width={1000} height={500} alt="Logo Oplan Saúde" />
+      <h2 className="text-4xl uppercase tracking-wider font-semibold my-10 text-[#404E68]">Saúde Integral</h2>
+      <Image src="/oplan-saude-integral.png" width={1300} height={500} alt="Logo Oplan Saúde" />
     </section>
 </>
   );
