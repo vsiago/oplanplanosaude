@@ -32,7 +32,10 @@ export default function Home() {
                 Preços acessíveis, atendimento humanizado, ótima rede
                 credenciada. Mais saúde para sua família.
               </p>
-              <a className=" flex items-center gap-x-2 md:float-start font-display bg-gradient-to-br from-[#31D0E6] via-[#31A8E5] to-[#1F81C8] p-4 px-6 rounded-sm  border-2 border-[#2FC1FF] drop-shadow-lg">
+              <a
+                src="/"
+                className="flex items-center gap-x-2 md:float-start font-display bg-gradient-to-br from-[#31D0E6] via-[#31A8E5] to-[#1F81C8] p-4 px-6 rounded-sm  border-2 border-[#2FC1FF] drop-shadow-lg mt-2 lg:mt-6 hover:scale-125 transition-all ease-in-out duration-200 cursor-pointer"
+              >
                 <Image
                   src="/icon-wpp.png"
                   width={28}
@@ -74,16 +77,54 @@ export default function Home() {
 
       {/* ******************* SAÚDE INTEGRAL ******************* */}
 
-      <section className="w-full h-[80%] my-10  md:my-20 container mx-auto flex items-center justify-center flex-col">
-        <h2 className="text-4xl uppercase tracking-wider font-semibold my-10 text-[#404E68]">
-          Saúde Integral
-        </h2>
-        <Image
-          src="/oplan-saude-integral.png"
-          width={1300}
-          height={500}
-          alt="Gráfico Oplan Saúde Integral"
-        />
+      <section className="w-full h-[80%] mx-auto flex items-center justify-center flex-col relative">
+        <div className="my-20 mb-32">
+          <h2 className="text-2xl md:text-4xl uppercase tracking-wider font-semibold my-10 text-[#404E68]">
+            Saúde Integral
+          </h2>
+          <Image
+            src="/oplan-saude-integral.png"
+            width={1300}
+            height={500}
+            alt="Gráfico Oplan Saúde Integral"
+          />
+        </div>
+      </section>
+
+      {/* ******************* Líder em saúde na Costa Verde ******************* */}
+
+      <section className="h-[90vh] bg-gradient-to-t from-[#3F506A] to-[#3170AB] relative">
+        <div class="custom-shape-divider-top-1718665655">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <div class="custom-shape-divider-bottom-1718665667">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+      </section>
+      <section className="h-[80vh]">
+        <h3 className="text-2xl md:text-4xl uppercase tracking-wider font-semibold my-10 text-[#404E68]">
+          CONHEÇA NOSSOS PLANOS
+        </h3>
       </section>
     </>
   );
