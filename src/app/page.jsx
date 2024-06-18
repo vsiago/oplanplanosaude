@@ -97,7 +97,7 @@ export default function Home() {
                 width={200}
                 height={100}
                 alt="Ícone Rede Própria"
-                className="absolute bottom-0 left-0 rotate-180"
+                className="absolute bottom-0 left-0 rotate-180 opacity-50"
               />
               <Image
                 src="/deco.png"
@@ -125,7 +125,7 @@ export default function Home() {
                 width={200}
                 height={100}
                 alt="Ícone Rede Própria"
-                className="absolute bottom-0 left-0 rotate-180"
+                className="absolute bottom-0 left-0 rotate-180 "
               />
               <Image
                 src="/deco.png"
@@ -155,7 +155,7 @@ export default function Home() {
                 width={200}
                 height={100}
                 alt="Ícone Rede Própria"
-                className="absolute bottom-0 left-0 rotate-180"
+                className="absolute bottom-0 left-0 rotate-180 opacity-50"
               />
               <Image
                 src="/deco.png"
