@@ -21,11 +21,11 @@ export default function Home() {
 
       {/* ******************* HERO ******************* */}
 
-      <section className="bg-gradient-to-tr from-[#326D90] via-[#404E68] via-70% to-[#404E68] h-[95vh] w-full relative">
+      <section className="bg-gradient-to-tr from-[#326D90] via-[#404E68] via-70% to-[#404E68] h-[86vh] w-full relative">
         <div className="h-full w-full backround-oplan flex items-end justify-center">
           <div className="flex flex-col md:flex-row items-center justify-center h-[90%]  container mx-auto">
             <div className=" h-full w-full order-2 md:order-1 flex flex-col items-center md:items-start justify-start md:justify-center">
-              <h1 className="font-display text-white text-4xl md:text-[5rem] leading-[1.2] uppercase font-black md:text-start">
+              <h1 className="font-display text-white text-4xl md:text-[5rem] lg:text-6xl leading-[1.2] uppercase font-black md:text-start">
                 A sua melhor <br />
                 escolha em Plano de Saúde
               </h1>
@@ -221,14 +221,14 @@ Saúde Farma"
             width={1300}
             height={500}
             alt="Gráfico Oplan Saúde Integral"
-            className="scale-105"
+            className=""
           />
         </div>
       </section>
 
       {/* ******************* Líder em saúde na Costa Verde ******************* */}
 
-      <section className="pb-20 bg-gradient-to-t from-[#3F506A] to-[#3170AB] relative">
+      <section className="pb-20  bg-gradient-to-t from-[#3F506A] to-[#3170AB] relative">
         <div class="custom-shape-divider-top-1718665655">
           <svg
             data-name="Layer 1"
@@ -254,7 +254,7 @@ Saúde Farma"
             <p className="p-1 px-3 text-xs font-semibold tracking-wide text-white mx-auto md:mx-0 md:text-base mb-5 rounded-full bg-[#19A4E0]">
               Conheça mais a Oplan
             </p>
-            <p className="font-display text-white text-4xl md:text-[5rem] leading-[1.2] uppercase font-bold text-center w-full md:text-start">
+            <p class="font-display text-white text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl leading-snug md:leading-tight uppercase font-bold text-center w-full md:text-start">
               Líder em saúde <br /> na Costa Verde
             </p>
             <p className="md:text-start text-[#C4E6FA] leading-6 text-lg md:text-2xl px-12 md:px-0 md:pr-24 w-full">
