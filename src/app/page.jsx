@@ -80,8 +80,8 @@ export default function Home() {
 
       <section className="w-full relative md:hidden">
         <div className="my-20 container mx-auto flex flex-col items-center justify-center">
-          <h2 className="text-2xl  uppercase tracking-wider font-semibold my-10 text-[#404E68]">
-            Saúde Integral
+          <h2 className="text-3xl  uppercase tracking-wider font-semibold my-10 text-[#404E68]">
+            Oplan <br /> Saúde Integral
           </h2>
           <Image
             src="/oplan-saude-integrada-mobile.png"
@@ -228,7 +228,7 @@ Saúde Farma"
 
       {/* ******************* Líder em saúde na Costa Verde ******************* */}
 
-      <section className="h-[90vh] bg-gradient-to-t from-[#3F506A] to-[#3170AB] relative">
+      <section className="pb-20 bg-gradient-to-t from-[#3F506A] to-[#3170AB] relative">
         <div class="custom-shape-divider-top-1718665655">
           <svg
             data-name="Layer 1"
@@ -241,6 +241,36 @@ Saúde Farma"
               class="shape-fill"
             ></path>
           </svg>
+        </div>
+        <Image
+          src="/deco-left-oplan.png"
+          width={160}
+          height={350}
+          alt="Foto Hospital Geral Itaguaí"
+          className="invisible md:visible absolute left-0 top-1/2 transform -translate-y-1/2"
+        />
+        <div className="container mx-auto  flex flex-col md:flex-row items-center justify-center h-full">
+          <div className="order-2 md:order-1  h-full w-full flex flex-col justify-start md:justify-center items-start">
+            <p className="p-1 px-3 text-xs font-semibold tracking-wide text-white mx-auto md:mx-0 md:text-base mb-5 rounded-full bg-[#19A4E0]">
+              Conheça mais a Oplan
+            </p>
+            <p className="font-display text-white text-4xl md:text-[5rem] leading-[1.2] uppercase font-bold text-center w-full md:text-start">
+              Líder em saúde <br /> na Costa Verde
+            </p>
+            <p className="md:text-start text-[#C4E6FA] text-lg md:text-2xl px-12 md:px-0 md:pr-24 w-full">
+              Oplan é a principal operadora de saúde da Costa Verde e do Rio de
+              Janeiro, oferecendo cuidados de qualidade excepcional.
+            </p>
+          </div>
+          <div className="order-1 md:order-2  h-full w-full">
+            <Image
+              src="/hospital-hgi.png"
+              width={750}
+              height={600}
+              alt="Foto Hospital Geral Itaguaí"
+              className="relative z-30"
+            />
+          </div>
         </div>
         <div class="custom-shape-divider-bottom-1718665667">
           <svg
