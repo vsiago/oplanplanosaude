@@ -93,6 +93,20 @@ export default function Home() {
           <div className="w-full flex flex-col items-center gap-y-3 -mt-40">
             <div className="w-[90%] p-5  bg-gradient-to-tr from-white/30 to-white/20 shadow-2xl shadow-[#c1cddc] rounded-xl border-4 border-white backdrop-blur-sm hover">
               <Image
+                src="/deco.png"
+                width={200}
+                height={100}
+                alt="Ícone Rede Própria"
+                className="absolute bottom-0 left-0 rotate-180"
+              />
+              <Image
+                src="/deco.png"
+                width={200}
+                height={80}
+                alt="Ícone Rede Própria"
+                className="absolute top-4 right-4"
+              />
+              <Image
                 src="/icon-hospital.png"
                 width={64}
                 height={64}
@@ -106,6 +120,20 @@ export default function Home() {
               </p>
             </div>
             <div className="w-[90%] p-5  bg-gradient-to-tr from-white/30 to-white/20 shadow-2xl shadow-[#c1cddc] rounded-xl border-4 border-white backdrop-blur-sm hover">
+              <Image
+                src="/deco.png"
+                width={200}
+                height={100}
+                alt="Ícone Rede Própria"
+                className="absolute bottom-0 left-0 rotate-180"
+              />
+              <Image
+                src="/deco.png"
+                width={200}
+                height={80}
+                alt="Ícone Rede Própria"
+                className="absolute top-4 right-4 opacity-50"
+              />
               <Image
                 src="/icon-devices.png"
                 width={64}
@@ -123,6 +151,20 @@ export default function Home() {
             </div>
             <div className="w-[90%] p-5  bg-gradient-to-tr from-white/30 to-white/20 shadow-2xl shadow-[#c1cddc] rounded-xl border-4 border-white backdrop-blur-sm hover">
               <Image
+                src="/deco.png"
+                width={200}
+                height={100}
+                alt="Ícone Rede Própria"
+                className="absolute bottom-0 left-0 rotate-180"
+              />
+              <Image
+                src="/deco.png"
+                width={200}
+                height={80}
+                alt="Ícone Rede Própria"
+                className="absolute top-4 right-4"
+              />
+              <Image
                 src="/icon-rede.png"
                 width={64}
                 height={64}
@@ -137,6 +179,20 @@ export default function Home() {
               </p>
             </div>
             <div className="w-[90%] p-5  bg-gradient-to-tr from-white/30 to-white/20 shadow-2xl shadow-[#c1cddc] rounded-xl border-4 border-white backdrop-blur-sm hover">
+              <Image
+                src="/deco.png"
+                width={200}
+                height={100}
+                alt="Ícone Rede Própria"
+                className="absolute bottom-0 left-0 rotate-180"
+              />
+              <Image
+                src="/deco.png"
+                width={200}
+                height={80}
+                alt="Ícone Rede Própria"
+                className="absolute top-4 right-4 opacity-50"
+              />
               <Image
                 src="/icon-remedio.png"
                 width={64}
