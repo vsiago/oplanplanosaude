@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <header className=" flex items-center justify-end pr-10 md:pr-0 md:justify-between container absolute top-0 left-1/2 transform -translate-x-1/2  my-8 md:my-16 z-10">
+      <header className=" flex items-center justify-end pr-10 md:pr-0 md:justify-between container absolute top-0 left-1/2 transform -translate-x-1/2  my-8 md:my-16 z-10 md:px-10 lg:px-20 xl:px-0">
         <Image
           src="/logo-oplan-v-light.png"
           width={170}
@@ -21,11 +21,11 @@ export default function Home() {
 
       {/* ******************* HERO ******************* */}
 
-      <section className="bg-gradient-to-tr from-[#326D90] via-[#404E68] via-70% to-[#404E68] h-[86vh] w-full relative">
-        <div className="h-full w-full backround-oplan flex items-end justify-center">
+      <section className="bg-gradient-to-tr  from-[#326D90] via-[#404E68] via-70% to-[#404E68] h-[90vh] md:h-[92vh] w-full relative overflow-hidden">
+        <div className="h-full w-full backround-oplan flex items-end justify-center md:px-10 lg:px-20">
           <div className="flex flex-col md:flex-row items-center justify-center h-[90%]  container mx-auto">
             <div className=" h-full w-full order-2 md:order-1 flex flex-col items-center md:items-start justify-start md:justify-center">
-              <h1 className="font-display text-white text-4xl md:text-[5rem] lg:text-6xl leading-[1.2] uppercase font-black md:text-start">
+              <h1 className="font-display text-white text-4xl md:text-[3rem] lg:text-6xl xl:text-7xl 2xl:text-[6rem] leading-[1.2] uppercase font-black md:text-start">
                 A sua melhor <br />
                 escolha em Plano de Saúde
               </h1>
@@ -55,7 +55,7 @@ export default function Home() {
                 width={880}
                 height={400}
                 alt="Logo Oplan Saúde"
-                className="static md:absolute"
+                className="static md:absolute sm:h-full sm:object-contain md:w-[70%] lg:w-[60%] xl:w-[45%]"
               />
             </div>
           </div>
@@ -228,7 +228,7 @@ Saúde Farma"
 
       {/* ******************* Líder em saúde na Costa Verde ******************* */}
 
-      <section className="pb-20  bg-gradient-to-t from-[#3F506A] to-[#3170AB] relative">
+      <section className="pb-20  bg-gradient-to-t from-[#3F506A] to-[#3170AB] relative lg:px-20 lg:py-20">
         <div class="custom-shape-divider-top-1718665655">
           <svg
             data-name="Layer 1"
@@ -247,23 +247,23 @@ Saúde Farma"
           width={160}
           height={450}
           alt="Foto Hospital Geral Itaguaí"
-          className="invisible md:visible absolute left-0 top-1/2 transform -translate-y-1/2 scale-110"
+          className="invisible md:visible absolute left-0 top-1/2 transform -translate-y-1/2 scale-110 z-[1]"
         />
-        <div className="container mx-auto flex flex-col md:flex-row items-center justify-center h-full">
-          <div className="order-2 md:order-1  h-full w-full flex flex-col justify-start md:justify-center items-start">
+        <div className="container mx-auto flex flex-col md:flex-row items-center justify-center h-full relative z-[2]">
+          <div className="order-2 md:order-1  h-full w-full flex flex-col justify-start md:justify-center items-start md:px-10">
             <p className="p-1 px-3 text-xs font-semibold tracking-wide text-white mx-auto md:mx-0 md:text-base mb-5 rounded-full bg-[#19A4E0]">
               Conheça mais a Oplan
             </p>
-            <p class="font-display text-white text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl leading-snug md:leading-tight uppercase font-bold text-center w-full md:text-start">
+            <p class="font-display text-white text-4xl sm:text-5xl md:text-3xl lg:text-4xl xl:text-6xl 2xl:text-7xl leading-snug md:leading-tight uppercase font-bold text-center w-full md:text-start">
               Líder em saúde <br /> na Costa Verde
             </p>
-            <p className="md:text-start text-[#C4E6FA] leading-6 text-lg md:text-2xl px-4 md:px-0 md:pr-24 w-full">
+            <p className="md:text-start text-[#C4E6FA] leading-6 text-lg md:text-xl lg:text-xl px-4 md:px-0  w-full">
               Oplan é a principal operadora de saúde da Costa Verde e do Rio de
               Janeiro, oferecendo cuidados de qualidade excepcional.
             </p>
             <a
               href="/"
-              className="uppercase md:-mb-20 text-[#3C5677] font-bold text-md md:text-lg mt-6 bg-white/80 border mx-auto md:mx-0 border-white p-2 px-6 rounded-sm"
+              className="uppercase md:-mb-20 lg:mb-0 text-[#3C5677] font-bold text-md md:text-lg mt-6 bg-white/80 border mx-auto md:mx-0 border-white p-2 px-6 rounded-sm"
             >
               Rede própria
             </a>
