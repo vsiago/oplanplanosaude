@@ -267,7 +267,6 @@ Saúde Farma"
             >
               Rede própria
             </a>
-
           </div>
           <div className="order-1 md:order-2  h-full w-full">
             <Image
@@ -301,30 +300,220 @@ Saúde Farma"
           CONHEÇA <br /> NOSSOS PLANOS
         </h3>
         <div className="container">
-        <div className="carousel carousel-center p-4 max-w-7xl space-x-4 bg-neutral rounded-box"><font></font>
-  <div className="carousel-item"><font></font>
-    <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="rounded-box" /><font></font>
-  </div> <font></font>
-  <div className="carousel-item"><font></font>
-    <img src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg" className="rounded-box" /><font></font>
-  </div> <font></font>
-  <div className="carousel-item"><font></font>
-    <img src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg" className="rounded-box" /><font></font>
-  </div> <font></font>
-  <div className="carousel-item"><font></font>
-    <img src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg" className="rounded-box" /><font></font>
-  </div> <font></font>
-  <div className="carousel-item"><font></font>
-    <img src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg" className="rounded-box" /><font></font>
-  </div> <font></font>
-  <div className="carousel-item"><font></font>
-    <img src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg" className="rounded-box" /><font></font>
-  </div> <font></font>
-  <div className="carousel-item"><font></font>
-    <img src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" className="rounded-box" /><font></font>
-  </div><font></font>
-</div>
+          <div className="carousel carousel-center p-4 max-w-7xl space-x-4 bg-neutral rounded-box">
+            <font></font>
+            <div className="carousel-item">
+              <font></font>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg"
+                className="rounded-box"
+              />
+              <font></font>
+            </div>{" "}
+            <font></font>
+            <div className="carousel-item">
+              <font></font>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg"
+                className="rounded-box"
+              />
+              <font></font>
+            </div>{" "}
+            <font></font>
+            <div className="carousel-item">
+              <font></font>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg"
+                className="rounded-box"
+              />
+              <font></font>
+            </div>{" "}
+            <font></font>
+            <div className="carousel-item">
+              <font></font>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg"
+                className="rounded-box"
+              />
+              <font></font>
+            </div>{" "}
+            <font></font>
+            <div className="carousel-item">
+              <font></font>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg"
+                className="rounded-box"
+              />
+              <font></font>
+            </div>{" "}
+            <font></font>
+            <div className="carousel-item">
+              <font></font>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg"
+                className="rounded-box"
+              />
+              <font></font>
+            </div>{" "}
+            <font></font>
+            <div className="carousel-item">
+              <font></font>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg"
+                className="rounded-box"
+              />
+              <font></font>
+            </div>
+            <font></font>
+          </div>
+        </div>
+      </section>
 
+      {/* ************* FOOTER ************** */}
+
+      <section className=" rotate-180  relative  flex items-center justify-center bg-gradient-to-tr  from-[#326D90] via-[#404E68] via-70% to-[#404E68]">
+        <div class="custom-shape-divider-bottom-1718660191">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z"
+              class="shape-fill"
+              fill="#e4eef7"
+            ></path>
+          </svg>
+        </div>
+        <div className="container rotate-180">
+          <div className="flex flex-col md:flex-row items-end justify-center w-full">
+            <div className=" w-full md:w-[50%]  mt-20 md:mt-32 flex flex-col md:items-start justify-end items-center">
+              <div className="flex items-center gap-x-6">
+                <a href="/">
+                  <Image
+                    src="/logo-oplan-v-light.png"
+                    width={180}
+                    height={20}
+                    alt="Logo Oplan"
+                  />
+                </a>
+              </div>
+              <p className="text-white mt-3">Horário de funcionamento:</p>
+              <p className="text-xs text-[#C4E6FA] text-center">
+                Segunda a quinta-feira: 08:00 - 17:00 Sexta-feira: 08:00 - 16:00
+              </p>
+            </div>
+            <div className=" w-full md:w-[50%]   flex h-32 md:h-44 flex-col items-center justify-end mt-6 -mb-4">
+              <p className="text-white text-bold mb-3">Falar com a Oplan</p>
+              <div className="flex items-center gap-x-1">
+                <a href="/">
+                  <Image
+                    src="/icon-whatsapp.png"
+                    width={80}
+                    height={80}
+                    alt="Ícone WhatsApp"
+                    className="mx-auto mb-1"
+                  />
+                </a>
+                <a href="/">
+                  <Image
+                    src="/icon-email.png"
+                    width={80}
+                    height={80}
+                    alt="Ícone E-mail"
+                    className="mx-auto mb-1"
+                  />
+                </a>
+                <a href="/">
+                  <Image
+                    src="/icon-telefone.png"
+                    width={80}
+                    height={80}
+                    alt="Ícone Telefone"
+                    className="mx-auto mb-1"
+                  />
+                </a>
+                <a href="/">
+                  <Image
+                    src="/icon-enedeco.png"
+                    width={80}
+                    height={80}
+                    alt="Ícone Endereço"
+                    className="mx-auto mb-1"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="w-full">
+            <p className="text-white text-sm md:text-lg text-center my-16">
+              Copyright © 2024 Oplan Operadora de Saúde Todos os direitos
+              reservados.
+            </p>
+          </div>
+        </div>
+
+        <div class="custom-shape-divider-bottom-1718321215 relative">
+          <div className="h-2 w-full bg-[#F0E0E0] absolute -top-1 z-[1000]"></div>
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <defs>
+              <linearGradient id="gradient" x1="100%" y1="0%" x2="0%" y2="0%">
+                <stop offset="0%" stop-color="#F0E0E0" />
+                <stop offset="50%" stop-color="#F0E0E0" />
+                <stop offset="100%" stop-color="#F0E0E0" />
+              </linearGradient>
+            </defs>
+
+            <path
+              d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+              opacity=".25"
+              fill="url(#gradient)"
+            ></path>
+            <path
+              d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+              opacity=".5"
+              fill="url(#gradient)"
+            ></path>
+            <path
+              d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+              fill="url(#gradient)"
+            ></path>
+          </svg>
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <defs>
+              <linearGradient id="gradient" x1="100%" y1="0%" x2="0%" y2="0%">
+                <stop offset="0%" stop-color="#F0E0E0" />
+                <stop offset="50%" stop-color="#F0E0E0" />
+                <stop offset="100%" stop-color="#F0E0E0" />
+              </linearGradient>
+            </defs>
+
+            <path
+              d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+              opacity=".25"
+              fill="url(#gradient)"
+            ></path>
+            <path
+              d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+              opacity=".5"
+              fill="url(#gradient)"
+            ></path>
+            <path
+              d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+              fill="url(#gradient)"
+            ></path>
+          </svg>
         </div>
       </section>
     </>
