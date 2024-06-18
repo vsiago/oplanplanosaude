@@ -35,7 +35,7 @@ export default function Home() {
               </p>
               <a
                 src="/"
-                className="flex items-center gap-x-2 md:float-start font-display bg-gradient-to-br from-[#31D0E6] via-[#31A8E5] to-[#1F81C8] p-4 px-6 rounded-sm  border-2 border-[#2FC1FF] drop-shadow-lg mt-2 lg:mt-6 hover:scale-125 transition-all ease-in-out duration-200 cursor-pointer"
+                className="flex items-center gap-x-2 md:float-start font-display bg-gradient-to-br from-[#31D0E6] via-[#31A8E5] to-[#1F81C8] p-4 px-10 rounded-sm  border-2 border-[#2FC1FF] drop-shadow-lg mt-2 lg:mt-6 hover:scale-125 transition-all ease-in-out duration-200 cursor-pointer"
               >
                 <Image
                   src="/icon-wpp.png"
