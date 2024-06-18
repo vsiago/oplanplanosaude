@@ -301,7 +301,7 @@ Saúde Farma"
           CONHEÇA <br /> NOSSOS PLANOS
         </h3>
         <div className="container">
-        <div className="carousel carousel-center p-4 space-x-4 bg-neutral rounded-box"><font></font>
+        <div className="carousel carousel-center p-4 max-w-7xl space-x-4 bg-neutral rounded-box"><font></font>
   <div className="carousel-item"><font></font>
     <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="rounded-box" /><font></font>
   </div> <font></font>
