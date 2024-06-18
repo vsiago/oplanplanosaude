@@ -221,6 +221,7 @@ Saúde Farma"
             width={1300}
             height={500}
             alt="Gráfico Oplan Saúde Integral"
+            className="scale-105"
           />
         </div>
       </section>
