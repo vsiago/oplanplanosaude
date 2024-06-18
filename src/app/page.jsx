@@ -296,7 +296,7 @@ Saúde Farma"
 
       {/* ******************* PRODUTOS OPLAN ******************* */}
 
-      <section className="h-[80vh]">
+      <section className=" py-20 pb-40">
         <h3 className="text-2xl md:text-4xl uppercase tracking-wider font-semibold my-10 text-[#404E68]">
           CONHEÇA <br /> NOSSOS PLANOS
         </h3>
