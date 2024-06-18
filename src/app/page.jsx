@@ -112,10 +112,10 @@ export default function Home() {
                 height={64}
                 alt="Ícone Rede Própria"
               />
-              <p className="font-display text-lg font-bold text-start text-[#4E6381]">
+              <p className="font-display text-lg font-bold text-start text-[#4E6381] mt-3">
                 Rede Própria de Hospital <br /> e Centros Médicos
               </p>
-              <p className="text-start text-base mt-3">
+              <p className="text-start text-base mt-1">
                 Para garantia total do <br /> seu atendimento
               </p>
             </div>
@@ -140,11 +140,11 @@ export default function Home() {
                 height={64}
                 alt="Ícone Telemedicina"
               />
-              <p className="font-display text-lg font-bold text-start text-[#4E6381]">
+              <p className="font-display text-lg font-bold text-start text-[#4E6381] mt-3">
                 Telemedicina <br />
                 Adulto e Pediátrico
               </p>
-              <p className="text-start text-base mt-3">
+              <p className="text-start text-base mt-1">
                 Consultas virtuais disponíveis a qualquer hora e de qualquer
                 lugar
               </p>
@@ -166,15 +166,15 @@ export default function Home() {
               />
               <Image
                 src="/icon-rede.png"
-                width={64}
-                height={64}
+                width={65}
+                height={65}
                 alt="Ícone Ampla e Qualificada Rede Credenciada"
               />
-              <p className="font-display text-lg font-bold text-start text-[#4E6381]">
+              <p className="font-display text-lg font-bold text-start text-[#4E6381] mt-3">
                 Ampla e Qualificada <br />
                 Rede Credenciada
               </p>
-              <p className="text-start text-base mt-3">
+              <p className="text-start text-base mt-1">
                 Acesso a excelentes profissionais e serviços de saúde.
               </p>
             </div>
@@ -200,10 +200,10 @@ export default function Home() {
                 alt="Ícone Programa
 Saúde Farma"
               />
-              <p className="font-display text-lg font-bold text-start text-[#4E6381]">
+              <p className="font-display text-lg font-bold text-start text-[#4E6381] mt-3">
                 Programa <br /> Saúde Farma
               </p>
-              <p className="text-start text-base mt-3">
+              <p className="text-start text-base mt-1">
                 Medicamento a preço de custo
               </p>
             </div>
