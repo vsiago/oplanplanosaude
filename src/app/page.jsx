@@ -267,6 +267,12 @@ Saúde Farma"
             >
               Rede própria
             </a>
+            <a
+              href="/"
+              className="btn mx-auto"
+            >
+              Rede própria
+            </a>
           </div>
           <div className="order-1 md:order-2  h-full w-full">
             <Image
@@ -297,8 +303,34 @@ Saúde Farma"
 
       <section className="h-[80vh]">
         <h3 className="text-2xl md:text-4xl uppercase tracking-wider font-semibold my-10 text-[#404E68]">
-          CONHEÇA NOSSOS PLANOS
+          CONHEÇA <br /> NOSSOS PLANOS
         </h3>
+        <div className="container">
+        <div className="carousel carousel-center p-4 space-x-4 bg-neutral rounded-box"><font></font>
+  <div className="carousel-item"><font></font>
+    <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" className="rounded-box" /><font></font>
+  </div> <font></font>
+  <div className="carousel-item"><font></font>
+    <img src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg" className="rounded-box" /><font></font>
+  </div> <font></font>
+  <div className="carousel-item"><font></font>
+    <img src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg" className="rounded-box" /><font></font>
+  </div> <font></font>
+  <div className="carousel-item"><font></font>
+    <img src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg" className="rounded-box" /><font></font>
+  </div> <font></font>
+  <div className="carousel-item"><font></font>
+    <img src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg" className="rounded-box" /><font></font>
+  </div> <font></font>
+  <div className="carousel-item"><font></font>
+    <img src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg" className="rounded-box" /><font></font>
+  </div> <font></font>
+  <div className="carousel-item"><font></font>
+    <img src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" className="rounded-box" /><font></font>
+  </div><font></font>
+</div>
+
+        </div>
       </section>
     </>
   );
