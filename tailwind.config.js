@@ -18,12 +18,12 @@ module.exports = {
       },
       container: {
         center: true,
-        padding: "2rem", // Define um padding global para o container
+        // padding: "2rem", // Define um padding global para o container
         screens: {
-          sm: "640px", // Define a largura máxima para telas pequenas
-          md: "768px", // Define a largura máxima para telas médias
-          lg: "1024px", // Define a largura máxima para telas grandes
-          xl: "1280px", // Define a largura máxima para telas extra grandes
+          // sm: "640px", // Define a largura máxima para telas pequenas
+          // md: "768px", // Define a largura máxima para telas médias
+          // lg: "1024px", // Define a largura máxima para telas grandes
+          // xl: "1280px", // Define a largura máxima para telas extra grandes
           "2xl": "1436px", // Define a largura máxima para telas 2x extra grandes
         },
       },

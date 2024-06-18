@@ -245,9 +245,9 @@ Saúde Farma"
         <Image
           src="/deco-left-oplan.png"
           width={160}
-          height={350}
+          height={450}
           alt="Foto Hospital Geral Itaguaí"
-          className="invisible md:visible absolute left-0 top-1/2 transform -translate-y-1/2"
+          className="invisible md:visible absolute left-0 top-1/2 transform -translate-y-1/2 scale-110"
         />
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-center h-full">
           <div className="order-2 md:order-1  h-full w-full flex flex-col justify-start md:justify-center items-start">
@@ -257,13 +257,13 @@ Saúde Farma"
             <p class="font-display text-white text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl leading-snug md:leading-tight uppercase font-bold text-center w-full md:text-start">
               Líder em saúde <br /> na Costa Verde
             </p>
-            <p className="md:text-start text-[#C4E6FA] leading-6 text-lg md:text-2xl px-12 md:px-0 md:pr-24 w-full">
+            <p className="md:text-start text-[#C4E6FA] leading-6 text-lg md:text-2xl px-4 md:px-0 md:pr-24 w-full">
               Oplan é a principal operadora de saúde da Costa Verde e do Rio de
               Janeiro, oferecendo cuidados de qualidade excepcional.
             </p>
             <a
               href="/"
-              className="uppercase md:-mb-16 text-[#3C5677] font-bold text-sm md:text-base mt-6 bg-white/80 border mx-auto md:mx-0 border-white p-2 px-6 rounded-sm"
+              className="uppercase md:-mb-20 text-[#3C5677] font-bold text-md md:text-lg mt-6 bg-white/80 border mx-auto md:mx-0 border-white p-2 px-6 rounded-sm"
             >
               Rede própria
             </a>
