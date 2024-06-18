@@ -29,7 +29,7 @@ export default function Home() {
                 A sua melhor <br />
                 escolha em Plano de Saúde
               </h1>
-              <p className="text-[#BFD1EC] text-base md:text-xl my-3 md:text-start md:mr-32">
+              <p className="text-[#BFD1EC] text-base md:text-xl my-3 md:text-start md:mr-32 px-10 md:px-0">
                 Preços acessíveis, atendimento humanizado, ótima rede
                 credenciada. Mais saúde para sua família.
               </p>
