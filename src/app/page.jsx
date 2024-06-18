@@ -267,12 +267,7 @@ Saúde Farma"
             >
               Rede própria
             </a>
-            <a
-              href="/"
-              className="btn mx-auto"
-            >
-              Rede própria
-            </a>
+
           </div>
           <div className="order-1 md:order-2  h-full w-full">
             <Image
