@@ -282,7 +282,7 @@ Saúde Farma"
 
       {/* ******************* Líder em saúde na Costa Verde ******************* */}
 
-      <section className="pb-20  bg-gradient-to-t from-[#3F506A] to-[#3170AB] relative lg:px-20 lg:py-20">
+      <section className="pb-40 md:pb-20  bg-gradient-to-t from-[#3F506A] to-[#3170AB] relative lg:px-20 lg:py-20">
         <div class="custom-shape-divider-top-1718665655">
           <svg
             data-name="Layer 1"
@@ -345,6 +345,36 @@ Saúde Farma"
             ></path>
           </svg>
         </div>
+
+        <div className="w-[90%] p-3  bg-sky-500/80 backdrop-blur absolute -bottom-20 lg:-bottom-2 left-1/2 transform -translate-x-1/2 z-50 container rounded-lg flex items-center justify-center">
+        <div className="border-2 border-white/40 flex flex-col sm:flex-row items-start justify-center rounded-md py-2 lg:py-4 h-full w-full gap-2">
+          <div className="w-full md:w-auto">
+            <h4 className="text-3xl text-white">Quem compara, <br />
+            escolhe Oplan!</h4>
+          </div>
+          <div className="w-full px-8 md:w-auto">
+          <a
+                src="/"
+                className={`flex items-center justify-center relative z-[50]  gap-x-2 sm:gap-x-2  md:float-start font-display bg-gradient-to-r from-white to-white/80 p-2 px-3 sm:p-4 mt-2 md:px-10 rounded-lg  border-2 border-white drop-shadow-lg  hover:scale-125 transition-all ease-in-out duration-200 cursor-pointer ${
+                  show2000Delay
+                    ? "slide-in-bottom cursor-pointer"
+                    : "hidden-bottom "
+                }`}
+              >
+                <Image
+                  src="/icon-wpp2.png"
+                  width={28}
+                  height={28}
+                  alt="Ícone Whatsapp"
+                />
+                <p className="text-[#41536C] font-semibold text-sm sm:text-base md:text-xl">
+                  Solicite uma cotação
+                </p>
+              </a>
+          </div>
+        </div>
+        </div>
+
       </section>
 
       {/* ******************* PRODUTOS OPLAN ******************* */}
@@ -421,6 +451,7 @@ Saúde Farma"
             <font></font>
           </div>
         </div>
+
       </section>
 
       {/* ************* FOOTER ************** */}
