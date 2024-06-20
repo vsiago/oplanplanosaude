@@ -297,13 +297,7 @@ Saúde Farma"
             ></path>
           </svg>
         </div>
-        <Image
-          src="/deco-left-oplan.png"
-          width={160}
-          height={450}
-          alt="Foto Hospital Geral Itaguaí"
-          className="invisible md:visible absolute left-0 top-1/2 transform -translate-y-1/2 scale-110 z-[1]"
-        />
+
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-center h-full relative z-[2]">
           <div className="order-2 md:order-1  h-full w-full flex flex-col justify-start md:justify-center items-start md:px-10">
             <p className="p-1 px-3 text-xs font-semibold tracking-wide text-white mx-auto md:mx-0 md:text-base mb-5 rounded-full bg-[#19A4E0]">
