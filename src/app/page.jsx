@@ -368,7 +368,7 @@ Saúde Farma"
                   alt="Ícone Whatsapp"
                 />
                 <p className="text-[#41536C] font-semibold text-sm sm:text-base md:text-xl">
-                  Solicite uma cotação
+                  Fale com um especialista
                 </p>
               </a>
           </div>
