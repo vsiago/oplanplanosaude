@@ -86,3 +86,110 @@ body {
     height: 40px;
   }
 }
+
+/* Animação da Esquerda para a Direita */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+  animation: slideInFromLeft 1.5s cubic-bezier(0.07, 0.36, 0.4, 1.06) forwards;
+}
+
+.hidden-left {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition-property: opacity, transform;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.26, 1.14);
+  transition-duration: 150ms;
+}
+
+/* Animação da Direita para a Esquerda */
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Aplica a animação da Direita para a Esquerda */
+.slide-in-right {
+  animation: slideInFromRight 1.5s cubic-bezier(0.07, 0.36, 0.4, 1.06) forwards;
+}
+
+/* Estado inicial invisível à direita */
+.hidden-right {
+  opacity: 0;
+  transform: translateX(100%);
+  transition-property: opacity, transform;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.26, 1.14);
+  transition-duration: 150ms;
+}
+
+/* Animação de Cima para Baixo */
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Aplica a animação de Cima para Baixo */
+.slide-in-top {
+  animation: slideInFromTop 1.5s cubic-bezier(0.07, 0.36, 0.4, 1.06) forwards;
+}
+
+/* Estado inicial invisível no topo */
+.hidden-top {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition-property: opacity, transform;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.26, 1.14);
+  transition-duration: 150ms;
+}
+
+/* Animação de Baixo para Cima */
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Aplica a animação de Baixo para Cima */
+.slide-in-bottom {
+  animation: slideInFromBottom 1.5s cubic-bezier(0.07, 0.36, 0.4, 1.06) forwards;
+}
+
+/* Estado inicial invisível embaixo */
+.hidden-bottom {
+  opacity: 0;
+  transform: translateY(100%);
+  transition-property: opacity, transform;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.26, 1.14);
+  transition-duration: 150ms;
+}
+
+/* Aplica a animação com um delay */
+.delayed-animation {
+  animation-delay: 1.5s; /* Delay de 1.5 segundos */
+}

@@ -1,6 +1,45 @@
+"use client";
 import Image from "next/image";
+import { useState, useEffect, useRef } from "react";
+import { useInView } from "react-intersection-observer";
+
+function scrollToSection(id) {
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "nearest",
+    });
+  }
+}
 
 export default function Home() {
+  // Referência para acessar o ID da seção
+  const quemSomosRef = useRef(null);
+
+  const [show1000Delay, setShow1000Delay] = useState(false);
+  const [show2000Delay, setShow2000Delay] = useState(false);
+
+  useEffect(() => {
+    const timer1000 = setTimeout(() => {
+      setShow1000Delay(true); // Após 1000ms (1 segundo), mostrar os textos
+    }, 1000);
+
+    const timer2000 = setTimeout(() => {
+      setShow2000Delay(true); // Após 1000ms (1 segundo), mostrar os textos
+    }, 2000);
+
+    return () => clearTimeout(timer1000, timer2000); // Limpa o temporizador se o componente for desmontado
+  }, []); // Executa uma vez após a montagem do componente
+
+  // Configuração do Intersection Observer para o h1
+  const { ref, inView, entry } = useInView({
+    /* Configurações do Intersection Observer */
+    threshold: 0.5, // Define a porcentagem de visibilidade necessária para acionar o callback
+    triggerOnce: true, // Ação será disparada apenas uma vez
+  });
+
   return (
     <>
       <header className=" flex items-center justify-end pr-10 md:pr-0 md:justify-between container absolute top-0 left-1/2 transform -translate-x-1/2  my-8 md:my-16 z-10 md:px-10 lg:px-20 xl:px-0">
@@ -12,7 +51,7 @@ export default function Home() {
           className="md:w-[250px]"
         />
         <a
-          href="/"
+          href="https://oplan.com.br/"
           className="hidden md:block text-white p-3 px-6 border-2 border-[#31A8E6] rounded-full"
         >
           Site Institucional
@@ -25,17 +64,30 @@ export default function Home() {
         <div className="h-full w-full backround-oplan flex items-end justify-center md:px-10 lg:px-20">
           <div className="flex flex-col md:flex-row items-center justify-center h-[90%]  container mx-auto">
             <div className=" h-full w-full order-2 md:order-1 flex flex-col items-center md:items-start justify-start md:justify-center">
-              <h1 className="font-display text-white text-4xl md:text-[3rem] lg:text-6xl xl:text-7xl 2xl:text-[6rem] leading-[1.2] uppercase font-black md:text-start">
+              <h1
+                ref={ref} // Ref para o Intersection Observer
+                className={`font-display text-white text-4xl md:text-[3rem] lg:text-6xl xl:text-7xl 2xl:text-[6rem] leading-[1.2] uppercase font-black md:text-start ${
+                  show1000Delay ? "slide-in-bottom " : "hidden-bottom "
+                }`}
+              >
                 A sua melhor <br />
                 escolha em Plano de Saúde
               </h1>
-              <p className="text-[#BFD1EC] text-base md:text-xl my-3 md:text-start md:mr-32 px-10 md:px-0">
+              <p
+                className={`text-[#BFD1EC] text-base md:text-xl my-3 md:text-start md:mr-32 px-10 md:px-0 ${
+                  show2000Delay ? "slide-in-bottom " : "hidden-bottom "
+                }`}
+              >
                 Preços acessíveis, atendimento humanizado, ótima rede
                 credenciada. Mais saúde para sua família.
               </p>
               <a
                 src="/"
-                className="flex items-center gap-x-2 md:float-start font-display bg-gradient-to-br from-[#31D0E6] via-[#31A8E5] to-[#1F81C8] p-4 px-10 rounded-sm  border-2 border-[#2FC1FF] drop-shadow-lg mt-2 lg:mt-6 hover:scale-125 transition-all ease-in-out duration-200 cursor-pointer"
+                className={`flex items-center relative z-[50] gap-x-2 bg-red-500 md:float-start font-display bg-gradient-to-br from-[#31D0E6] via-[#31A8E5] to-[#1F81C8] p-4 px-10 rounded-sm  border-2 border-[#2FC1FF] drop-shadow-lg mt-2 lg:mt-6 hover:scale-125 transition-all ease-in-out duration-200 cursor-pointer ${
+                  show2000Delay
+                    ? "slide-in-bottom cursor-pointer"
+                    : "hidden-bottom "
+                }`}
               >
                 <Image
                   src="/icon-wpp.png"
@@ -55,7 +107,9 @@ export default function Home() {
                 width={880}
                 height={400}
                 alt="Logo Oplan Saúde"
-                className="static md:absolute sm:h-full sm:object-contain md:w-[70%] lg:w-[60%] xl:w-[45%]"
+                className={`static md:absolute sm:h-full sm:object-contain md:w-[70%] lg:w-[60%] xl:w-[45%] ${
+                  inView ? "slide-in-bottom " : "hidden-bottom "
+                }`}
               />
             </div>
           </div>
