@@ -193,3 +193,10 @@ body {
 .delayed-animation {
   animation-delay: 1.5s; /* Delay de 1.5 segundos */
 }
+
+.bg-card-costa-verde {
+  background-image: url("/mask-costa-verde.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: top right;
+}

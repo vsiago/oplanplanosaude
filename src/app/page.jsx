@@ -99,7 +99,6 @@ export default function Home() {
                   Solicite uma cotação
                 </p>
               </a>
-             
             </div>
 
             <div className="h-[50%] md:h-full w-full  order-1 md:order-2 flex items-end justify-center">
@@ -342,13 +341,15 @@ Saúde Farma"
         </div>
 
         <div className="w-[90%] p-3  bg-sky-500/80 backdrop-blur absolute -bottom-20 lg:-bottom-2 left-1/2 transform -translate-x-1/2 z-50 container rounded-lg flex items-center justify-center">
-        <div className="border-2 border-white/40 flex flex-col sm:flex-row items-start justify-center rounded-md py-2 lg:py-4 h-full w-full gap-2">
-          <div className="w-full md:w-auto">
-            <h4 className="text-3xl text-white">Quem compara, <br />
-            escolhe Oplan!</h4>
-          </div>
-          <div className="w-full px-8 md:w-auto">
-          <a
+          <div className="border-2 border-white/40 flex flex-col sm:flex-row items-start justify-center rounded-md py-2 lg:py-4 h-full w-full gap-2">
+            <div className="w-full md:w-auto">
+              <h4 className="text-3xl text-white">
+                Quem compara, <br />
+                escolhe Oplan!
+              </h4>
+            </div>
+            <div className="w-full px-8 md:w-auto">
+              <a
                 src="/"
                 className={`flex items-center justify-center relative z-[50]  gap-x-2 sm:gap-x-2  md:float-start font-display bg-gradient-to-r from-white to-white/80 p-2 px-3 sm:p-4 mt-2 md:px-10 rounded-lg  border-2 border-white drop-shadow-lg  hover:scale-125 transition-all ease-in-out duration-200 cursor-pointer ${
                   show2000Delay
@@ -366,10 +367,9 @@ Saúde Farma"
                   Fale com um especialista
                 </p>
               </a>
+            </div>
           </div>
         </div>
-        </div>
-
       </section>
 
       {/* ******************* PRODUTOS OPLAN ******************* */}
@@ -379,16 +379,46 @@ Saúde Farma"
           CONHEÇA <br /> NOSSOS PLANOS
         </h3>
         <div className="container">
-          <div className="carousel carousel-center p-4 max-w-7xl space-x-4 bg-neutral rounded-box">
-            <font></font>
+          <div className="carousel carousel-center p-4 h-[500px] max-w-7xl space-x-4  rounded-box">
             <div className="carousel-item">
-              <font></font>
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg"
-                className="rounded-box"
-              />
-              <font></font>
-            </div>{" "}
+              <div className=" h-full w-[300px] bg-gradient-to-tr from-[#4F7E81] to-[#5FAB8B] border-4 border-[#59B8AC] rounded-2xl">
+                <div className="bg-card-costa-verde h-full w-full p-7 text-start text-white  flex flex-col justify-between">
+                  <div>
+                    <Image
+                      src="/icon-costa-verde.png"
+                      width={80}
+                      height={80}
+                      alt="Ícone Costa Verde"
+                    />
+                    <span className="block mt-3 text-lg font-semibold">
+                      Plano de Saúde
+                    </span>
+                    <p className="text-4xl font-display leading-5">
+                      Costa Verde
+                    </p>
+                    <p className="text-base text-[#BDF6BC] mt-6 pr-6">
+                      Com atendimento personalizado e ampla cobertura,
+                      garantimos a saúde e o bem-estar de toda a sua família, em
+                      todas as fases da vida.
+                    </p>
+                  </div>
+                  <a
+                    href="#"
+                    className="flex items-center justify-center gap-2 w-full bg-white h-12 rounded-lg hover:bg-green-100 transition-all duration-150 ease-linear hover:shadow-lg shadow-green-950"
+                  >
+                    <Image
+                      src="/wp-cv.png"
+                      width={23}
+                      height={23}
+                      alt="Ícone WhatsApp"
+                    />
+                    <p className="text-[#4F7E81] font-semibold uppercase text-lg text-center">
+                      Saiba mais
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
             <font></font>
             <div className="carousel-item">
               <font></font>
@@ -446,7 +476,6 @@ Saúde Farma"
             <font></font>
           </div>
         </div>
-
       </section>
 
       {/* ************* FOOTER ************** */}
