@@ -379,9 +379,9 @@ Saúde Farma"
           CONHEÇA <br /> NOSSOS PLANOS
         </h3>
         <div className="container">
-          <div className="carousel carousel-center p-4 h-[500px] max-w-7xl space-x-4  rounded-box">
+          <div className="carousel flex carousel-center p-4 h-[500px] mx-auto max-w-max space-x-4 bg-neutral rounded-box">
             <div className="carousel-item">
-              <div className=" h-full w-[300px] bg-gradient-to-tr from-[#4F7E81] to-[#5FAB8B] border-4 border-[#59B8AC] rounded-2xl">
+              <div className=" h-full w-[320px] bg-gradient-to-tr from-[#4F7E81] to-[#5FAB8B] border-4 border-[#59B8AC] rounded-2xl">
                 <div className="bg-card-costa-verde h-full w-full p-7 text-start text-white  flex flex-col justify-between">
                   <div>
                     <Image
@@ -393,7 +393,7 @@ Saúde Farma"
                     <span className="block mt-3 text-lg font-semibold">
                       Plano de Saúde
                     </span>
-                    <p className="text-4xl font-display leading-5">
+                    <p className="text-4xl font-display leading-5 font-bold">
                       Costa Verde
                     </p>
                     <p className="text-base text-[#BDF6BC] mt-6 pr-6">
@@ -419,61 +419,122 @@ Saúde Farma"
                 </div>
               </div>
             </div>
-            <font></font>
             <div className="carousel-item">
-              <font></font>
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg"
-                className="rounded-box"
-              />
-              <font></font>
-            </div>{" "}
-            <font></font>
-            <div className="carousel-item">
-              <font></font>
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg"
-                className="rounded-box"
-              />
-              <font></font>
-            </div>{" "}
-            <font></font>
-            <div className="carousel-item">
-              <font></font>
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg"
-                className="rounded-box"
-              />
-              <font></font>
-            </div>{" "}
-            <font></font>
-            <div className="carousel-item">
-              <font></font>
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg"
-                className="rounded-box"
-              />
-              <font></font>
-            </div>{" "}
-            <font></font>
-            <div className="carousel-item">
-              <font></font>
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg"
-                className="rounded-box"
-              />
-              <font></font>
-            </div>{" "}
-            <font></font>
-            <div className="carousel-item">
-              <font></font>
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg"
-                className="rounded-box"
-              />
-              <font></font>
+              <div className=" h-full w-[320px] bg-gradient-to-tr from-[#4F5781] to-[#7480C4] border-4 border-[#5F70CA] rounded-2xl">
+                <div className="bg-card-costa-verde h-full w-full p-7 text-start text-white  flex flex-col justify-between">
+                  <div>
+                    <Image
+                      src="/icon-costa-verde.png"
+                      width={80}
+                      height={80}
+                      alt="Ícone Costa Verde"
+                    />
+                    <span className="block mt-3 text-lg font-semibold">
+                      Plano de Saúde
+                    </span>
+                    <p className="text-4xl font-display leading-5 font-bold">
+                      Mater Digital
+                    </p>
+                    <p className="text-base text-[#DEF1FF] mt-6 pr-6">
+                      Transformando sua saúde com tecnologia avançada e um
+                      atendimento sempre à sua disposição, onde quer que você
+                      esteja.
+                    </p>
+                  </div>
+                  <a
+                    href="#"
+                    className="flex items-center justify-center gap-2 w-full bg-white h-12 rounded-lg hover:bg-blue-100 transition-all duration-150 ease-linear hover:shadow-lg shadow-green-950"
+                  >
+                    <Image
+                      src="/wp-md.png"
+                      width={23}
+                      height={23}
+                      alt="Ícone WhatsApp"
+                    />
+                    <p className="text-[#616BA2] font-semibold uppercase text-lg text-center">
+                      Saiba mais
+                    </p>
+                  </a>
+                </div>
+              </div>
             </div>
-            <font></font>
+            <div className="carousel-item">
+              <div className=" h-full w-[320px] bg-gradient-to-tr from-[#3C5674] to-[#4075AA] border-4 border-[#4D8FD3] rounded-2xl">
+                <div className="bg-card-costa-verde h-full w-full p-7 text-start text-white  flex flex-col justify-between">
+                  <div>
+                    <Image
+                      src="/icon-costa-verde.png"
+                      width={80}
+                      height={80}
+                      alt="Ícone Costa Verde"
+                    />
+                    <span className="block mt-3 text-lg font-semibold">
+                      Plano de Saúde
+                    </span>
+                    <p className="text-4xl font-display leading-5 font-bold">
+                      Oplan Serv
+                    </p>
+                    <p className="text-base text-[#CAF9FF] mt-6 pr-6">
+                      Dedicado a quem se dedica ao serviço público, garantindo
+                      saúde e qualidade de vida com a segurança que você merece.
+                    </p>
+                  </div>
+                  <a
+                    href="#"
+                    className="flex items-center justify-center gap-2 w-full bg-white h-12 rounded-lg hover:bg-sky-100 transition-all duration-150 ease-linear hover:shadow-lg shadow-green-950"
+                  >
+                    <Image
+                      src="/wp-os.png"
+                      width={23}
+                      height={23}
+                      alt="Ícone WhatsApp"
+                    />
+                    <p className="text-[#3E6996] font-semibold uppercase text-lg text-center">
+                      Saiba mais
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <div className=" h-full w-[320px] bg-gradient-to-tr from-[#5D3118] to-[#A06641] border-4 border-[#B88159] rounded-2xl">
+                <div className="bg-card-costa-verde h-full w-full p-7 text-start text-white  flex flex-col justify-between">
+                  <div>
+                    <Image
+                      src="/icon-costa-verde.png"
+                      width={80}
+                      height={80}
+                      alt="Ícone Costa Verde"
+                    />
+                    <span className="block mt-3 text-lg font-semibold">
+                      Plano de Saúde
+                    </span>
+                    <p className="text-4xl font-display leading-5 font-bold">
+                      Vale do Café
+                    </p>
+                    <p className="text-base text-[#FFF0CA] mt-6 pr-6">
+                      Oferecendo cuidado integral e acesso aos melhores
+                      profissionais no Sul Fluminense, para que você possa
+                      desfrutar de cada momento com tranquilidade.
+                    </p>
+                  </div>
+                  <a
+                    href="#"
+                    className="flex items-center justify-center gap-2 w-full bg-white h-12 rounded-lg hover:bg-orange-100 transition-all duration-150 ease-linear hover:shadow-lg shadow-green-950"
+                  >
+                    <Image
+                      src="/wp-vc.png"
+                      width={23}
+                      height={23}
+                      alt="Ícone WhatsApp"
+                    />
+                    <p className="text-[#6C4831] font-semibold uppercase text-lg text-center">
+                      Saiba mais
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
