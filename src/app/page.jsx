@@ -67,7 +67,7 @@ export default function Home() {
               <h1
                 ref={ref} // Ref para o Intersection Observer
                 className={`font-display text-white text-4xl md:text-[3rem] lg:text-6xl xl:text-7xl 2xl:text-[6rem] leading-[1.2] uppercase font-black md:text-start ${
-                  show1000Delay ? "slide-in-bottom " : "hidden-bottom "
+                  inView ? "slide-in-bottom " : "hidden-bottom "
                 }`}
               >
                 A sua melhor <br />
@@ -75,7 +75,7 @@ export default function Home() {
               </h1>
               <p
                 className={`text-[#BFD1EC] text-base md:text-xl my-3 md:text-start md:mr-32 px-10 md:px-0 ${
-                  show2000Delay ? "slide-in-bottom " : "hidden-bottom "
+                  inView ? "slide-in-bottom " : "hidden-bottom "
                 }`}
               >
                 Preços acessíveis, atendimento humanizado, ótima rede
@@ -84,9 +84,7 @@ export default function Home() {
               <a
                 src="/"
                 className={`flex items-center relative z-[50] gap-x-2 md:float-start font-display  bg-gradient-to-r from-[#31D0E6] from-10% via-[#31A8E5] via-30% to-[#1F81C8] to-90% bg-[length:400%] rounded-[30px] hover:animate-gradient-xy hover:bg-[length:100%] before:content-[''] before:absolute before:-top-[5px] before:-bottom-[5px] before:-left-[5px] before:-right-[5px] before:bg-gradient-to-r before:from-sky-500 before:from-10% before:via-sky-200 before:via-30% before:to-green-500 before:bg-[length:400%] before:-z-10 before:rounded-[35px] before:hover:blur-xl before:transition-all before:ease-in-out before:duration-[1s] before:hover:bg-[length:10%] active:bg-white focus:ring-white p-4 px-10   border-2 border-[#2FC1FF] drop-shadow-lg mt-2 lg:mt-6 hover:scale-125 transition-all ease-in-out duration-200 cursor-pointer ${
-                  show2000Delay
-                    ? "slide-in-bottom cursor-pointer"
-                    : "hidden-bottom "
+                  inView ? "slide-in-bottom cursor-pointer" : "hidden-bottom "
                 }`}
               >
                 <Image
@@ -266,7 +264,7 @@ Saúde Farma"
         </div>
       </section>
 
-      <section className="hidden w-full h-[80%] mx-auto md:flex items-center justify-center flex-col relative">
+      <section className="hidden w-full  h-[80%] mx-auto md:flex items-center justify-center flex-col relative">
         <div className="my-20 mb-32">
           <h2 className="text-2xl md:text-4xl uppercase tracking-wider font-semibold my-10 text-[#404E68]">
             Saúde Integral
