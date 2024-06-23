@@ -281,7 +281,14 @@ Saúde Farma"
 
       {/* ******************* Líder em saúde na Costa Verde ******************* */}
 
-      <section className="pb-40 md:pb-20  bg-gradient-to-t from-[#3F506A] to-[#3170AB] relative lg:px-20 lg:py-20">
+      <section className="pb-40 md:pb-20  bg-gradient-to-t from-[#3F506A] to-[#3170AB] relative lg:px-20 ">
+        <Image
+          src="/selo-ona.png"
+          width={100}
+          height={230}
+          alt="Selo Ona"
+          className="absolute w-16 h-24 left-8 top-3 sm:left-12 sm:top-1 sm:w-24 sm:h-36 md:left-1/2 md:w-20 md:h-32 md:top-12 md:transform md:-translate-x-1/2 lg:left-auto lg:transform-none lg:right-[40%] lg:top-10"
+        />
         <div class="custom-shape-divider-top-1718665655">
           <svg
             data-name="Layer 1"
