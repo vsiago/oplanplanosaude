@@ -138,7 +138,7 @@ export default function Home() {
             Oplan <br /> Saúde Integral
           </h2>
           <Image
-            src="/oplan-saude-integrada-mobile.png"
+            src="/saude-integrada-mobile.png"
             width={1300}
             height={500}
             alt="Gráfico Oplan Saúde Integral"
@@ -170,7 +170,7 @@ export default function Home() {
                 Rede Própria de Hospital <br /> e Centros Médicos
               </p>
               <p className="text-start text-base mt-1">
-                Para garantia total do <br /> seu atendimento
+                Atendimento completo e <br /> integrado para sua saúde
               </p>
             </div>
             <div className="w-[90%] p-5  bg-gradient-to-tr from-white/30 to-white/20 shadow-2xl shadow-[#c1cddc] rounded-xl border-4 border-white backdrop-blur-sm hover">
@@ -229,7 +229,8 @@ export default function Home() {
                 Rede Credenciada
               </p>
               <p className="text-start text-base mt-1">
-                Acesso a excelentes profissionais e serviços de saúde.
+                Garantindo acesso a serviços de saúde de excelência onde você
+                estiver
               </p>
             </div>
             <div className="w-[90%] p-5  bg-gradient-to-tr from-white/30 to-white/20 shadow-2xl shadow-[#c1cddc] rounded-xl border-4 border-white backdrop-blur-sm hover">
@@ -421,10 +422,10 @@ Saúde Farma"
             </div>
             <div className="carousel-item">
               <div className=" h-full w-[320px] bg-gradient-to-tr from-[#4F5781] to-[#7480C4] border-4 border-[#5F70CA] rounded-2xl">
-                <div className="bg-card-costa-verde h-full w-full p-7 text-start text-white  flex flex-col justify-between">
+                <div className="bg-card-master-digital h-full w-full p-7 text-start text-white  flex flex-col justify-between">
                   <div>
                     <Image
-                      src="/icon-costa-verde.png"
+                      src="/icon-master-digital.png"
                       width={80}
                       height={80}
                       alt="Ícone Costa Verde"
@@ -433,7 +434,7 @@ Saúde Farma"
                       Plano de Saúde
                     </span>
                     <p className="text-4xl font-display leading-5 font-bold">
-                      Mater Digital
+                      Master Digital
                     </p>
                     <p className="text-base text-[#DEF1FF] mt-6 pr-6">
                       Transformando sua saúde com tecnologia avançada e um
@@ -460,10 +461,10 @@ Saúde Farma"
             </div>
             <div className="carousel-item">
               <div className=" h-full w-[320px] bg-gradient-to-tr from-[#3C5674] to-[#4075AA] border-4 border-[#4D8FD3] rounded-2xl">
-                <div className="bg-card-costa-verde h-full w-full p-7 text-start text-white  flex flex-col justify-between">
+                <div className="bg-card-oplan-serv h-full w-full p-7 text-start text-white  flex flex-col justify-between">
                   <div>
                     <Image
-                      src="/icon-costa-verde.png"
+                      src="/icon-oplan-serv.png"
                       width={80}
                       height={80}
                       alt="Ícone Costa Verde"
@@ -498,10 +499,10 @@ Saúde Farma"
             </div>
             <div className="carousel-item">
               <div className=" h-full w-[320px] bg-gradient-to-tr from-[#5D3118] to-[#A06641] border-4 border-[#B88159] rounded-2xl">
-                <div className="bg-card-costa-verde h-full w-full p-7 text-start text-white  flex flex-col justify-between">
+                <div className="bg-card-vale-do-cafe h-full w-full p-7 text-start text-white  flex flex-col justify-between">
                   <div>
                     <Image
-                      src="/icon-costa-verde.png"
+                      src="/icon-vale-do-cafe.png"
                       width={80}
                       height={80}
                       alt="Ícone Costa Verde"

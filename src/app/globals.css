@@ -200,3 +200,24 @@ body {
   background-size: 60%;
   background-position: top right;
 }
+
+.bg-card-master-digital {
+  background-image: url("/mask-master-digital.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: top right;
+}
+
+.bg-card-oplan-serv {
+  background-image: url("/mask-oplan-serv.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: top right;
+}
+
+.bg-card-vale-do-cafe {
+  background-image: url("/mask-vale-cafe.png");
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-position: top right;
+}
