@@ -24,13 +24,6 @@ export const metadata = {
     ],
     site_name: "Oplan",
   },
-  twitter: {
-    card: "summary_large_image",
-    site: "@oplan",
-    title: "Oplan Plano de Saúde",
-    description: "A sua melhor escolha em Plano de Saúde.",
-    image: "https://planodesaudeoplan.com.br/favicon.ico",
-  },
 };
 
 export default function RootLayout({ children }) {
@@ -53,16 +46,6 @@ export default function RootLayout({ children }) {
           content="https://planodesaudeoplan.com.br/favicon.ico"
         />
         <meta property="og:site_name" content="Oplan" />
-
-        {/* Twitter cards para otimização em Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@oplan" />
-        <meta name="twitter:title" content={metadata.title} />
-        <meta name="twitter:description" content={metadata.description} />
-        <meta
-          name="twitter:image"
-          content="https://planodesaudeoplan.com.br/favicon.ico"
-        />
 
         {/* Adicionando outros meta tags */}
         <meta name="robots" content="index, follow" />
