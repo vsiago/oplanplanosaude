@@ -82,7 +82,8 @@ export default function Home() {
                 credenciada. Mais saúde para sua família.
               </p>
               <a
-                src="/"
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=5521991174517&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20uma%20cota%C3%A7%C3%A3o!"
                 className={`flex items-center relative z-[50] gap-x-2 md:float-start font-display  bg-gradient-to-r from-[#31D0E6] from-10% via-[#31A8E5] via-30% to-[#1F81C8] to-90% bg-[length:400%] rounded-[30px] hover:animate-gradient-xy hover:bg-[length:100%] before:content-[''] before:absolute before:-top-[5px] before:-bottom-[5px] before:-left-[5px] before:-right-[5px] before:bg-gradient-to-r before:from-sky-500 before:from-10% before:via-sky-200 before:via-30% before:to-green-500 before:bg-[length:400%] before:-z-10 before:rounded-[35px] before:hover:blur-xl before:transition-all before:ease-in-out before:duration-[1s] before:hover:bg-[length:10%] active:bg-white focus:ring-white p-4 px-10   border-2 border-[#2FC1FF] drop-shadow-lg mt-2 lg:mt-6 hover:scale-125 transition-all ease-in-out duration-200 cursor-pointer ${
                   inView ? "slide-in-bottom cursor-pointer" : "hidden-bottom "
                 }`}
@@ -315,12 +316,15 @@ Saúde Farma"
               Oplan é a principal operadora de saúde da Costa Verde e do Rio de
               Janeiro, oferecendo cuidados de qualidade excepcional.
             </p>
-            <a
+            <p className="md:text-start text-white mt-10 font-semibold leading-6 text-lg md:text-xl lg:text-xl px-4 md:px-0  w-full">
+              Rede Própria | Ampla rede credenciada
+            </p>
+            {/* <a
               href="/"
               className="uppercase md:-mb-20 lg:mb-0 text-[#3C5677] font-bold text-md md:text-lg mt-6 bg-white/80 border mx-auto md:mx-0 border-white p-2 px-6 rounded-sm"
             >
               Rede própria
-            </a>
+            </a> */}
           </div>
           <div className="order-1 md:order-2  h-full w-full">
             <Image
@@ -356,7 +360,8 @@ Saúde Farma"
             </div>
             <div className="w-full px-8 md:w-auto">
               <a
-                src="/"
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=5521991174517&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20uma%20cota%C3%A7%C3%A3o"
                 className={`flex items-center justify-center relative z-[50]  gap-x-2 sm:gap-x-2  md:float-start font-display bg-gradient-to-r from-white to-white/80 p-2 px-3 sm:p-4 mt-2 md:px-10 rounded-lg  border-2 border-white drop-shadow-lg  hover:scale-125 transition-all ease-in-out duration-200 cursor-pointer ${
                   show2000Delay
                     ? "slide-in-bottom cursor-pointer"
@@ -409,7 +414,8 @@ Saúde Farma"
                     </p>
                   </div>
                   <a
-                    href="#"
+                    target="_blank"
+                    href="https://api.whatsapp.com/send?phone=5521991174517&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20do%20Plano%20de%20Sa%C3%BAde%20Costa%20Verde"
                     className="flex items-center justify-center gap-2 w-full bg-white h-12 rounded-lg hover:bg-green-100 transition-all duration-150 ease-linear hover:shadow-lg shadow-green-950"
                   >
                     <Image
@@ -448,7 +454,8 @@ Saúde Farma"
                     </p>
                   </div>
                   <a
-                    href="#"
+                    target="_blank"
+                    href="https://api.whatsapp.com/send?phone=5521991174517&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20do%20Plano%20de%20Sa%C3%BAde%20Master%20Digital"
                     className="flex items-center justify-center gap-2 w-full bg-white h-12 rounded-lg hover:bg-blue-100 transition-all duration-150 ease-linear hover:shadow-lg shadow-green-950"
                   >
                     <Image
@@ -486,7 +493,8 @@ Saúde Farma"
                     </p>
                   </div>
                   <a
-                    href="#"
+                    target="_blank"
+                    href="https://api.whatsapp.com/send?phone=5521991174517&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20do%20Plano%20de%20Sa%C3%BAde%20Oplan%20Serv"
                     className="flex items-center justify-center gap-2 w-full bg-white h-12 rounded-lg hover:bg-sky-100 transition-all duration-150 ease-linear hover:shadow-lg shadow-green-950"
                   >
                     <Image
@@ -525,7 +533,8 @@ Saúde Farma"
                     </p>
                   </div>
                   <a
-                    href="#"
+                    target="_blank"
+                    href="https://api.whatsapp.com/send?phone=5521991174517&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20do%20Plano%20de%20Sa%C3%BAde%20Vale%20do%20Caf%C3%A9"
                     className="flex items-center justify-center gap-2 w-full bg-white h-12 rounded-lg hover:bg-orange-100 transition-all duration-150 ease-linear hover:shadow-lg shadow-green-950"
                   >
                     <Image
