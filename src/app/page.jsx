@@ -40,6 +40,20 @@ export default function Home() {
     triggerOnce: true, // Ação será disparada apenas uma vez
   });
 
+
+  useEffect(() => {
+    // Adiciona o script do Google Tag Manager dinamicamente
+    const script = document.createElement("script");
+    script.innerHTML = `
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-PP6X4NL9');
+    `;
+    document.head.appendChild(script);
+  }, []);
+  
   return (
     <>
       <header className=" flex items-center justify-end pr-10 md:pr-0 md:justify-between container absolute top-0 left-1/2 transform -translate-x-1/2  my-8 md:my-16 z-10 md:px-10 lg:px-20 xl:px-0">
