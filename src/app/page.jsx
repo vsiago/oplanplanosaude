@@ -43,38 +43,7 @@ export default function Home() {
 
   return (
     <>
-          <Head>
-        {/* Google Tag Manager */}
-        <script
-          id="google-tag-manager-script"
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(w,d,s,l,i){
-                w[l]=w[l]||[];
-                w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});
-                var f=d.getElementsByTagName(s)[0],
-                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
-                j.async=true;j.src=
-                'https://www.googletagmanager.com/gtm.js?id='+i+dl;
-                f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-PP6X4NL9');
-            `,
-          }}
-        />
-        {/* End Google Tag Manager */}
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-PP6X4NL9"
-            height="0"
-            width="0"
-            style={{ display: 'none', visibility: 'hidden' }}
-            title="Google Tag Manager"
-          />
-        </noscript>
-        {/* End Google Tag Manager (noscript) */}
-      </Head>
+      
       <header className=" flex items-center justify-end pr-10 md:pr-0 md:justify-between container absolute top-0 left-1/2 transform -translate-x-1/2  my-8 md:my-16 z-10 md:px-10 lg:px-20 xl:px-0">
         <Image
           src="/logo-oplan-v-light.png"
